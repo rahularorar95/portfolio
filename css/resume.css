@@ -4,6 +4,21 @@ body {
   color: #868e96;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #343a40; 
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background: #868e96; 
+}
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
