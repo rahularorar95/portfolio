@@ -73,6 +73,10 @@ p.lead {
   font-size: 3rem;
 }
 
+.dev-icons {
+  width: 65%;
+}
+
 .dev-icons .list-inline-item i {
   color: #BD5D38;
   cursor: pointer;
